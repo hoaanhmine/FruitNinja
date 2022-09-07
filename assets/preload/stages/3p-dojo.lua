@@ -56,12 +56,6 @@ function onCreate()
 	precacheImage('characters/GF_Katana')
 end
 
-
-function onCreate()
-    addLuaScript('add_scripts/xhealth/regular')
-
-end
-
 function onUpdate(elapsed)
 	setProperty('melonBeastTentacles.x', getProperty('dad.x') - 300)
 	setProperty('melonBeastTentacles.y', getProperty('dad.y') - 325)
